@@ -1,0 +1,111 @@
+# ========================
+# Compiled & Build Output
+# ========================
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+target/
+build/
+out/
+bin/
+
+# ========================
+# Build Tools
+# ========================
+
+# Maven
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# ========================
+# IDE & Editors
+# ========================
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.factorypath
+bin/
+
+# NetBeans
+nbproject/private/
+nbbuild/
+nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# ========================
+# Spring Boot
+# ========================
+spring-shell.log
+*.log
+
+# ========================
+# Environment & Secrets
+# ========================
+.env
+.env.*
+!.env.example
+application-local.properties
+application-local.yml
+application-secret.properties
+application-secret.yml
+*.pem
+*.key
+*.jks
+*.keystore
+*.p12
+
+# ========================
+# Logs & Runtime
+# ========================
+logs/
+*.log
+*.log.*
+log/
+hs_err_pid*
+replay_pid*
+
+# ========================
+# Testing
+# ========================
+*.exec
+jacoco.exec
+surefire-reports/
+failsafe-reports/
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
